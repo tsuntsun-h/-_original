@@ -1,0 +1,109 @@
+  html{
+    height: 100%;
+  }
+
+  body {
+    font-family: "はれのそら明朝" ;
+    color: #4A4345;
+    background-color: #F3F3F3;
+    }
+  
+  header{
+       background-image: url(img/黒1.jpeg);
+       height: 600px;
+    }
+
+  h1{
+    font-family: "はれのそら明朝" ;
+    color: #4A4345;
+    font-size: 25px;
+    text-align: left;
+    height: 150px;
+    padding-top: 120px;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+　　nav{
+  list-style: none;
+    }
+
+    ul{
+      display: flex;
+      font-size: 15px;
+    }
+
+    li{
+      list-style-type: none;
+      color: #4A4345;;
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    li a {
+      text-decoration: none;
+    }
+
+    li + li{
+      border-left: 1px solid #4A4345;;
+    }
+
+  
+
+  .sentence {
+    font-size: 17px;
+    text-align: center;
+    line-height: 3.5em;
+    padding: 150px;
+  }
+
+.onter{
+  text-align: center;
+}
+
+
+
+  .title1{
+    font-size: 14px;
+    padding-left: 10%;
+  }
+
+  .title2{
+    font-size: 20px;
+    padding-left: 10%;
+  }
+
+
+  .flowerp{
+    width: 60%;
+    margin: 10%;
+    display: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    flex-wrap: wrap;
+    float: right;
+  }
+
+ 　.pic{
+   border: 4px solid #4A4345
+ }
+
+
+
+  .title3{
+    font-size: 14px;
+  }
+
+  .title4{
+    font-size: 19px;
+  }
+
+.big{
+  font-size: 19px;
+}
+
+.small{
+  font-size: 14px;
+}
